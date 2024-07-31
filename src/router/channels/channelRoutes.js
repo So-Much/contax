@@ -2,6 +2,7 @@ import HomeView from '@/views/channels/HomeView.vue';
 import MusicView from '@/views/channels/MusicView.vue';
 import StudentHubView from '@/views/channels/StudentHubView.vue';
 import MessageView from '@/views/channels/MessageView.vue';
+import UserSettingView from '@/components/UserSettingView.vue';
 
 export default [
     {
@@ -9,7 +10,8 @@ export default [
         name: 'home',
         displayName: 'Home',
         components: {
-          default: HomeView
+          default: HomeView,
+          inspector: UserSettingView
         }
       },
       {

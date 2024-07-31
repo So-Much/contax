@@ -1,0 +1,21 @@
+/* Theme config */
+:root {
+  --body_bg_color: #f4f4f4;
+  --app_bg_color: #222831;
+  --channels_bg_color: #373a40;
+  --channel_tag_bg_hovered: #3f434b;
+  --channel_text_color: #a7b0b9;
+  --main_content_bg_color: #686d76;
+  --inspector_bg_color: #373a40;
+
+  /* common variable */
+  --border_rounded: #a7b0b9 1px solid;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: var(--body_bg_color);
+}

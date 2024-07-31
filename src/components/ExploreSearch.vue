@@ -1,13 +1,11 @@
 <script setup>
-// import { ref } from "vue";
-// const search_value = ref("");
 </script>
 
 <template>
     <div class="explore_search">
         <input type="text" name="" id="explore_search_input" placeholder="Explore Search">
         <label for="explore_search_input" class="explore_search_icon">
-            <img src="https://cdn0.iconfinder.com/data/icons/art-designing-glyph/2048/1871_-_Magnifier-512.png" alt="">
+            <img src="https://cdn0.iconfinder.com/data/icons/art-designing-glyph/2048/1871_-_Magnifier-512.png" alt="search icon">
         </label>
     </div>
 </template>

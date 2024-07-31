@@ -1,5 +1,5 @@
 <script setup>
-import ServerRef from '@/components/ServerRef.vue';
+import ServerRef from '@/components/minis/ServerRef.vue';
 </script>
 
 <template>
